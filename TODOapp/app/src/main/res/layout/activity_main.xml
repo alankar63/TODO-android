@@ -15,10 +15,10 @@
         android:inputType="textPassword"
         android:hint="Password"
         android:ems="10"
-        android:id="@+id/Password"
+        android:id="@+id/password"
         android:layout_above="@+id/button"
-        android:layout_alignLeft="@+id/Username"
-        android:layout_alignStart="@+id/Username"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
         android:layout_marginBottom="65dp" />
 
     <EditText
@@ -27,17 +27,18 @@
         android:inputType="textPersonName"
         android:hint="Username"
         android:ems="10"
-        android:id="@+id/Username"
+        android:id="@+id/username"
         android:layout_marginBottom="80dp"
-        android:layout_above="@+id/Password"
+        android:layout_above="@+id/password"
         android:layout_toLeftOf="@+id/button2"
         android:layout_toStartOf="@+id/button2" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Login"
         android:id="@+id/button"
+        android:background="#d9476e15"
         android:layout_marginBottom="68dp"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/editText"
@@ -46,7 +47,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
+        android:background="#d9476e15"
         android:id="@+id/button2"
         android:layout_alignTop="@+id/button"
         android:layout_alignParentRight="true"
